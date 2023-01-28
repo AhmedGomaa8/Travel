@@ -618,6 +618,16 @@ p.slide-top {
         padding: 10px 25px;
     }
 }
+@media (max-width: 350px) {
+    .gallery .container .boxs .card .text h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: var(--main-color);
+    }
+    .gallery .container .boxs .card .text p {
+        font-size: 14px;
+    }
+}
 /* end gallery */
 /* start pakages */
 .pakages {
