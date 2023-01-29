@@ -6,7 +6,6 @@
     --alt-color: #1e4eaf;
     --sec-padding: 50px;
     --main-transition: 0.5s;
-    --trans-color: ;
 }
 * {
     margin: 0;
@@ -32,19 +31,19 @@ body {
     .container {
       width: 750px;
     }
-  }
+}
   /* Medium */
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
     .container {
       width: 970px;
     }
-  }
+}
   /* Large */
-  @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     .container {
       width: 1170px;
     }
-  }
+}
 
 .up {
     position: fixed;
@@ -313,6 +312,7 @@ p.slide-top {
 }
 @media (max-width: 767px) {
     .header .text {
+        margin: 80px auto 0;
         width: 500px;
     }
 }
